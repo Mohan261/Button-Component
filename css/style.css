@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:80%;
+	margin:100px auto;
+	display:flex;
+	gap:16px;
+	border:1px solid #333;
+	border-radius:4px;
+	padding:25px;
+}
+.btn_primary{
+	background-color:rgb(17 108 249);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.btn_primary:hover{
+	background-color:rgb(15 79 183);
+}
+.btn_secondary{
+	background-color:rgb(109 116 126);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.btn_secondary:hover{
+	background-color:rgb(65 69 73);
+}
+.btn_success{
+	background-color:rgb(30 132 83);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.btn_success:hover{
+	background-color:rgb(8 86 49);
+}
+.btn_danger{
+	background-color:rgb(218 53 73);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.btn_danger:hover{
+	background-color:rgb(191 40 58);
+}
+.btn_warning{
+	background-color:rgb(244 185 22);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;
+	
+}
+.btn_warning:hover{
+	background-color:rgb(183 137 7);
+}
+.btn_info{
+	background-color:rgb(13 204 233);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;
+	
+}
+.btn_info:hover{
+	background-color:rgb(5 158 181);
+}
+.btn_light{
+	background-color:rgb(245 247 248);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;
+	
+}
+.btn_light:hover{
+	background-color:rgb(204 206 207);
+}
+.btn_dark{
+	background-color:rgb(43 47 56);
+	border:none;
+	border-radius:6px;
+	padding:8px 24px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.btn_dark:hover{
+	background-color:rgb(17 18 22);
+}
+
+.link{
+	background-color:transparent;
+	color:rgb(21 94 212);
+	border:none;
+	outline:none;
+	text-decoration:underline;
+}
+.link:hover{
+	color:rgb(6 66 163);
+	cursor:pointer;
+}
